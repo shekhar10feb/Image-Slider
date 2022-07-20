@@ -31,7 +31,7 @@ body {
 }
 
 .header {
-  font-size: 2rem;
+  font-size: 4rem;
   color: #fff;
   margin: 3rem 0 2rem 0;
 }
@@ -64,15 +64,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   min-height: 42rem;
   width: 100%;
   border: none;
   outline: none;
-  border: 6px solid #0f9c0f;
 }
 
 .container .sub-container .imagesDiv {
@@ -82,7 +77,7 @@ body {
   left: 0;
   right: 0;
   width: 100%;
-  height: 40rem;
+  border: 6px solid #0f9c0f;
 }
 
 .container .sub-container .name {
@@ -143,5 +138,220 @@ body {
 .container .sub-container .btn i:hover {
   background-color: #fff;
   color: #0f9c0f;
+}
+
+@media (min-width: 320px) {
+  .header {
+    font-size: 2rem;
+  }
+  .container {
+    min-height: 28rem;
+    width: 90%;
+  }
+  .container .sub-container {
+    min-height: 25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .container .sub-container .imagesDiv {
+    height: 15rem;
+  }
+  .container .sub-container .name {
+    top: 47%;
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .container .sub-container .btn-left {
+    left: -.8rem;
+  }
+  .container .sub-container .btn-right {
+    right: -.8rem;
+  }
+  .container .sub-container .btn {
+    top: 22%;
+    width: 2rem;
+    height: 3rem;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 414px) {
+  .header {
+    font-size: 2.2rem;
+  }
+  .container {
+    min-height: 32rem;
+    width: 90%;
+  }
+  .container .sub-container {
+    min-height: 27rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .container .sub-container .imagesDiv {
+    height: 19rem;
+  }
+  .container .sub-container .name {
+    top: 59%;
+    font-size: 1.2rem;
+    margin-left: 1.4rem;
+  }
+  .container .sub-container .btn-left {
+    left: -.9rem;
+  }
+  .container .sub-container .btn-right {
+    right: -.9rem;
+  }
+  .container .sub-container .btn {
+    top: 28%;
+    width: 2.2rem;
+    height: 3.2rem;
+    font-size: 2.2rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .header {
+    font-size: 2.5rem;
+  }
+  .container {
+    min-height: 35rem;
+    width: 90%;
+  }
+  .container .sub-container {
+    min-height: 30rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .container .sub-container .imagesDiv {
+    height: 27rem;
+  }
+  .container .sub-container .name {
+    top: 77%;
+    font-size: 1.4rem;
+    margin-left: 1.6rem;
+  }
+  .container .sub-container .btn-left {
+    left: -1.2rem;
+  }
+  .container .sub-container .btn-right {
+    right: -1.2rem;
+  }
+  .container .sub-container .btn {
+    top: 38%;
+    width: 2.7rem;
+    height: 3.7rem;
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    font-size: 2.8rem;
+  }
+  .container {
+    min-height: 40rem;
+    width: 90%;
+  }
+  .container .sub-container {
+    min-height: 37rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .container .sub-container .imagesDiv {
+    height: 35rem;
+  }
+  .container .sub-container .name {
+    top: 83%;
+    font-size: 1.6rem;
+    margin-left: 1.8rem;
+  }
+  .container .sub-container .btn-left {
+    left: -1.7rem;
+  }
+  .container .sub-container .btn-right {
+    right: -1.7rem;
+  }
+  .container .sub-container .btn {
+    top: 43%;
+    width: 4rem;
+    height: 5rem;
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header {
+    font-size: 3rem;
+  }
+  .container {
+    min-height: 60rem;
+    width: 90%;
+  }
+  .container .sub-container {
+    min-height: 58rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .container .sub-container .imagesDiv {
+    height: 57rem;
+  }
+  .container .sub-container .name {
+    top: 90%;
+    font-size: 1.8rem;
+    margin-left: 2.2rem;
+  }
+  .container .sub-container .btn-left {
+    left: -1.9rem;
+  }
+  .container .sub-container .btn-right {
+    right: -1.9rem;
+  }
+  .container .sub-container .btn {
+    top: 45%;
+    width: 4rem;
+    height: 5rem;
+    font-size: 3.5rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
